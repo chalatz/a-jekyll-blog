@@ -410,6 +410,9 @@ a {
 .main {
   overflow: hidden; }
 
+.col {
+  padding-bottom: 4em; }
+
 .col--left {
   width: 70%;
   float: left; }
