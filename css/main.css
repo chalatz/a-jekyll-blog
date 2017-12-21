@@ -390,15 +390,75 @@ template {
   display: none; }
 
 .site-body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333337; }
 
 a {
   text-decoration: none;
-  color: #333337; }
+  color: #333337;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear; }
+  a:hover {
+    color: #606669; }
 
 .site-body {
-  max-width: 1280px;
+  max-width: 990px;
   width: 80%;
   margin: 0 auto;
   padding-top: 2em; }
+
+.site-header {
+  border-bottom: 2px solid #606669; }
+
+.site-title {
+  font-size: 3em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em; }
+  .site-title:hover {
+    text-decoration: underline; }
+
+.site-nav {
+  padding: 1em 0;
+  font-size: 1.2em;
+  font-weight: bold; }
+  .site-nav__item {
+    margin-right: 1em;
+    padding: .15em .7em;
+    background-color: #333337;
+    color: #fff; }
+    .site-nav__item:hover {
+      background-color: #606669;
+      color: #fff; }
+
+.article__date {
+  color: #606669; }
+
+.article__tags-text {
+  font-weight: bold; }
+
+.article__tags-list {
+  display: inline-block;
+  list-style: none;
+  padding: 0; }
+
+.article__tag {
+  display: inline-block;
+  font-size: 1.05em;
+  padding: 0 .1em; }
+  .article__tag a {
+    color: #606669; }
+    .article__tag a:hover {
+      color: #333337;
+      text-decoration: underline; }
+
+.article__content {
+  font-family: 'PT Serif', serif;
+  color: gray;
+  font-size: 1.2em;
+  line-height: 1.3em; }
+  .article__content a {
+    text-decoration: underline;
+    color: #606669; }
+    .article__content a:hover {
+      color: #333337; }

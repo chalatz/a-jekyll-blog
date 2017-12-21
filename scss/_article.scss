@@ -1,0 +1,44 @@
+.article {
+
+    &__date {
+        color: $gray;
+    }
+
+    &__tags-text {
+        font-weight: bold;
+    }
+
+    &__tags-list {
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__tag {
+        display: inline-block;
+        font-size: 1.05em;
+        padding: 0 .1em;
+        a {
+            color: $gray;
+            &:hover {
+                color: $black;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__content {
+        font-family: 'PT Serif', serif;
+        color: gray;
+        font-size: 1.2em;
+        line-height: 1.3em;
+        a {
+            text-decoration: underline;
+            color: $gray;
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+
+}
