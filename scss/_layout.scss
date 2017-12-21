@@ -4,3 +4,22 @@
     margin: 0 auto;
     padding-top: 2em;
 }
+
+.main {
+    overflow: hidden;
+}
+
+.col {
+    
+}
+
+.col--left {
+    width: 70%;
+    float: left;
+}
+
+.col--right {
+    padding-top: 1em;
+    width: 23%;
+    float: right;
+}
