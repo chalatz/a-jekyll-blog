@@ -462,3 +462,21 @@ a {
     color: #606669; }
     .article__content a:hover {
       color: #333337; }
+
+.article--summary {
+  padding: 1em 0;
+  margin-bottom: 2.5em;
+  border-bottom: 1px solid #e3e4e5; }
+  .article--summary__title {
+    margin-bottom: 0.5em; }
+    .article--summary__title a:hover {
+      text-decoration: underline; }
+  .article--summary__date, .article--summary__tags-list {
+    margin: .2em 0; }
+  .article--summary__read-more {
+    padding: .5em 0;
+    overflow: hidden; }
+    .article--summary__read-more__link {
+      float: right; }
+      .article--summary__read-more__link:hover {
+        text-decoration: underline; }

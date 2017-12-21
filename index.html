@@ -6,15 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A jekyll blog</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Serif:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
+
+<body class="site-body">
     
     <header class="site-header">
 
-        <div class="site-title"></div>
+        <a href="/" class="site-title">Site Title</a>
 
-        <nav class="site-nav"></nav>
+        <nav class="site-nav">
+            <a href="" class="site-nav__item">Blog</a>
+            <a href="" class="site-nav__item">About Me</a>
+        </nav>
 
     </header>
 
@@ -22,11 +27,117 @@
 
         <section class="main-content">
 
-            <article class="article article-summary">
-                <h2 class="article-summary__title"></h2>
-                <p class="article-summary__date"></p>
-                <p class="article-summary__tags"></p>
+            <article class="article article--summary">
+
+                <h2 class="article--summary__title">
+                    <a href="article.html">A little long article title</a>
+                </h2>
+
+                <p class="article__date article--summary__date">
+                    31.12.2017
+                </p>
+
+                <ul class="article__tags-list article--summary__tags-list">
+                    <li class="article__tag">
+                        <a href="">tag1</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag2</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag3</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag4</a>
+                    </li>
+                </ul>
+
+                <section class="article__content article--summary__content">
+                        <p>Lorem, ipsum dolor sit amet consectetur <a href="">adipisicing</a> elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis.
+                </section>
+
+                <p class="article--summary__read-more">
+                    <a href="article.html" class="article--summary__read-more__link">
+                        Read more &rarr;
+                    </a>
+                </p>
+
             </article>
+
+            <article class="article article--summary">
+
+                <h2 class="article--summary__title">
+                    <a href="article.html">Another article title</a>
+                </h2>
+
+                <p class="article__date article--summary__date">
+                    31.12.2017
+                </p>
+
+                <ul class="article__tags-list article--summary__tags-list">
+                    <li class="article__tag">
+                        <a href="">tag1</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag2</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag3</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag4</a>
+                    </li>
+                </ul>
+
+                <section class="article__content article--summary__content">
+                        <p>Lorem, ipsum dolor sit amet consectetur <a href="">adipisicing</a> elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis.
+                </section>
+
+                <p class="article--summary__read-more">
+                    <a href="article.html" class="article--summary__read-more__link">
+                        Read more &rarr;
+                    </a>
+                </p>
+
+            </article>
+
+            <article class="article article--summary">
+
+                <h2 class="article--summary__title">
+                    <a href="article.html">Yep, an article title</a>
+                </h2>
+
+                <p class="article__date article--summary__date">
+                    31.12.2017
+                </p>
+
+                <ul class="article__tags-list article--summary__tags-list">
+                    <li class="article__tag">
+                        <a href="">tag1</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag2</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag3</a> ● 
+                    </li>
+                    <li class="article__tag">
+                        <a href="">tag4</a>
+                    </li>
+                </ul>
+
+                <section class="article__content article--summary__content">
+                        <p>Lorem, ipsum dolor sit amet consectetur <a href="">adipisicing</a> elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis.
+                </section>
+
+                <p class="article--summary__read-more">
+                    <a href="article.html" class="article--summary__read-more__link">
+                        Read more &rarr;
+                    </a>
+                </p>
+
+            </article>
+
 
         </section>
 
