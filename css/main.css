@@ -411,6 +411,9 @@ a {
   overflow: hidden;
   padding-bottom: 4em; }
 
+.row {
+  overflow: hidden; }
+
 .col--left {
   width: 70%;
   float: left; }
@@ -419,6 +422,12 @@ a {
   padding-top: 1em;
   width: 23%;
   float: right; }
+
+@media (max-width: 990px) {
+  .col--left,
+  .col--right {
+    display: block;
+    width: 100%; } }
 
 .pagination {
   overflow: hidden; }
@@ -500,6 +509,10 @@ a {
   padding: 1em 0;
   margin-bottom: 2.5em;
   border-bottom: 1px solid #e3e4e5; }
+  @media (max-width: 990px) {
+    .article--summary {
+      padding: 0;
+      margin-bottom: 1em; } }
   .article--summary__title {
     margin-bottom: 0.5em; }
     .article--summary__title a:hover {

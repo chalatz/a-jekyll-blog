@@ -10,6 +10,10 @@
     padding-bottom: 4em;
 }
 
+.row {
+    overflow: hidden;
+}
+
 .col--left {
     width: 70%;
     float: left;
@@ -19,6 +23,14 @@
     padding-top: 1em;
     width: 23%;
     float: right;
+}
+
+@include breakpoint(medium) {
+    .col--left,
+    .col--right {
+        display: block;
+        width: 100%;
+    }
 }
 
 .pagination {
