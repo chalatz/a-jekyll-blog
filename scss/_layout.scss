@@ -7,9 +7,6 @@
 
 .main {
     overflow: hidden;
-}
-
-.col {
     padding-bottom: 4em;
 }
 
@@ -22,4 +19,25 @@
     padding-top: 1em;
     width: 23%;
     float: right;
+}
+
+.pagination {
+    overflow: hidden;
+    
+    &__item {
+
+        font-size: 1.2em;
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &--left {
+            float: left;
+        }
+
+        &--right {
+            float: right;
+        }
+
+    }
 }

@@ -408,9 +408,7 @@ a {
   padding-top: 2em; }
 
 .main {
-  overflow: hidden; }
-
-.col {
+  overflow: hidden;
   padding-bottom: 4em; }
 
 .col--left {
@@ -421,6 +419,17 @@ a {
   padding-top: 1em;
   width: 23%;
   float: right; }
+
+.pagination {
+  overflow: hidden; }
+  .pagination__item {
+    font-size: 1.2em; }
+    .pagination__item:hover {
+      text-decoration: underline; }
+    .pagination__item--left {
+      float: left; }
+    .pagination__item--right {
+      float: right; }
 
 .site-header {
   border-bottom: 2px solid #606669; }
