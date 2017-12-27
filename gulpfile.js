@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 gulp.task('default', ['serve']);
 
 gulp.task('build-css', function(){
-    return gulp.src('scss/**/*.scss')
+    return gulp.src('scss/main.scss')
         .pipe(wait(50))
         .pipe(sass({includePaths: ['./scss']}))
         .pipe(pleeease({

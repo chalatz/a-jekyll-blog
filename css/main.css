@@ -431,6 +431,15 @@ a {
     .pagination__item--right {
       float: right; }
 
+.icon--twitter {
+  color: #00aced; }
+
+.icon--facebook {
+  color: #3b5998; }
+
+.icon--instagram {
+  color: #606669; }
+
 .site-header {
   border-bottom: 2px solid #606669; }
 
@@ -504,3 +513,23 @@ a {
       float: right; }
       .article--summary__read-more__link:hover {
         text-decoration: underline; }
+
+.sidebar__item {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e3e4e5; }
+  .sidebar__item:last-child {
+    border: none; }
+
+.sidebar__link:hover {
+  text-decoration: underline; }
+
+.tag-cloud {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .tag-cloud__item {
+    display: inline-block;
+    line-height: 2em; }
+  .tag-cloud__link:hover {
+    text-decoration: underline; }
