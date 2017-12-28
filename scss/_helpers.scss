@@ -6,12 +6,24 @@
     color: $gray;
 }
 
+.bg-black {
+    background-color: $black;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
 .italic {
     font-style: italic;
 }
 
 .bold {
     font-style: bold;
+}
+
+.underlined {
+    text-decoration: underline;
 }
 
 .icon {

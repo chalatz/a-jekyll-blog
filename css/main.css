@@ -520,6 +520,12 @@ striping:
 .text-gray {
   color: #606669; }
 
+.bg-black {
+  background-color: #333337; }
+
+.bg-gray {
+  background-color: #606669; }
+
 .italic {
   font-style: italic; }
 
