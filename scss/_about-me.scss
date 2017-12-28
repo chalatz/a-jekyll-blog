@@ -1,11 +1,5 @@
 .about-me {
 
-    &__block-title {
-        padding-bottom: 0.5em;
-        border-bottom: 2px solid $black;
-    }
-
-
     &__photo {
         text-align: right;
         @include breakpoint(medium){

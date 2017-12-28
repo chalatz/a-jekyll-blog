@@ -401,6 +401,9 @@ a {
   a:hover {
     color: #606669; }
 
+p {
+  line-height: 1.5em; }
+
 .site-body {
   max-width: 990px;
   width: 80%;
@@ -618,10 +621,6 @@ striping:
   .tag-cloud__link:hover {
     text-decoration: underline; }
 
-.about-me__block-title {
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #333337; }
-
 .about-me__photo {
   text-align: right; }
   @media (max-width: 990px) {
@@ -644,3 +643,14 @@ striping:
     .about-me__cv-table td,
     .about-me__cv-table th {
       padding-right: 2em; } }
+
+.block {
+  margin-bottom: 3em; }
+  .block:last-child {
+    margin-bottom: 0; }
+  @media (max-width: 990px) {
+    .block {
+      margin-bottom: 1.5em; } }
+  .block__title {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #333337; }
