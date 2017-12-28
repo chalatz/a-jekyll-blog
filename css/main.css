@@ -526,6 +526,9 @@ striping:
 .bold {
   font-style: bold; }
 
+.underlined {
+  text-decoration: underline; }
+
 .icon--twitter {
   color: #00aced; }
 
