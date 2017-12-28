@@ -1,0 +1,38 @@
+.about-me {
+
+    &__block-title {
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid $black;
+    }
+
+
+    &__photo {
+        text-align: right;
+        @include breakpoint(medium){
+            text-align: center;
+        }
+    }
+
+    &__cv-table {       
+
+        &,
+        td,
+        th {
+            border: none
+        };
+
+        td,
+        th {
+            vertical-align: top;
+            padding: .5em 3em .5em 0;
+            p:first-child {
+                margin-top: 0;
+            }
+            @include breakpoint(medium){
+                padding-right: 2em;
+            }
+        }
+
+    }
+
+}
