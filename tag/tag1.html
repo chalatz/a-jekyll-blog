@@ -1,0 +1,10 @@
+---
+layout: tag-page
+tag_name: tag1
+---
+
+{% for post in site.tags.tag1 %}
+
+  {% include article-summary.html %}
+
+{% endfor %}
