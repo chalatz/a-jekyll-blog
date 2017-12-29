@@ -1,0 +1,27 @@
+{% assign tags_size = page.tags | size %}
+
+{% unless tags_size == 0 %}
+
+    {% assign last_tag = page.tags | last %}
+
+    <span class="article__tags-text">Tags: </span>
+    <ul class="article__tags-list">
+
+        {% for tag_name in page.tags %}
+
+            {% assign tag_slug = tag_name | slugify %}
+
+            <li class="article__tag">
+                <a href="{{ site.baseurl }}/tag/{{ tag_slug }}">
+                    {{ tag_name }}
+                </a>
+                {% unless forloop.last %}
+                    {{ site.tags_separator }}
+                {% endunless %}
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endunless %}

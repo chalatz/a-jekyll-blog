@@ -1,0 +1,25 @@
+<article class="article article--summary">
+
+    <h2 class="article--summary__title">
+        <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+        </a>
+    </h2>
+
+    <p class="article__date article--summary__date">
+        {{ post.date | date: "%d.%m.%Y" }}
+    </p>
+
+    {% include article-summary-tags.html %}
+
+    <section class="article__content article--summary__content">
+        {{ post.excerpt }}
+    </section>
+
+    <p class="article--summary__read-more">
+        <a href="{{ post.url | relative_url }}" class="article--summary__read-more__link">
+            Read more &rarr;
+        </a>
+    </p>
+
+</article>

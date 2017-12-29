@@ -1,0 +1,26 @@
+{% assign tags_size = post.tags | size %}
+
+{% unless tags_size == 0 %}
+
+    {% assign last_tag = post.tags | last %}
+
+    <ul class="article__tags-list article--summary__tags-list">
+
+        {% for tag_name in post.tags %}
+
+            {% assign tag_slug = tag_name | slugify %}
+
+            <li class="article__tag">
+                <a href="{{ site.baseurl }}/tag/{{ tag_slug }}">
+                    {{ tag_name }}
+                </a>
+                {% unless forloop.last %}
+                    {{ site.tags_separator }}
+                {% endunless %}
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endunless %}
