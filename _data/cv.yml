@@ -1,0 +1,41 @@
+# Experience table
+xp_title: My CV
+
+xp:
+
+  - period: 06.2017 - Today 
+    details:
+      - company: Work solutions
+        title: Android developer
+        desc: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+  - period: 08.2016 - 06.2017 
+    details:
+      - company: OOO Technologies Company
+        title: Android developer
+        desc: Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+
+  - period: 07.2015 - 10.2015 
+    details:
+      - company: Another Technologies Company
+        title: Python developer
+        desc: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+
+#----------------------------
+# Skills table
+skills_title: My Skills
+
+skills:
+
+  - object: Programming Languages
+    skillset: <strong>Java</strong>, <strong>Kotlin</strong>, <strong>Python</strong>, C#, Haskell
+
+  - object: Tools
+    skillset: Git, Redmine, Jira, Slack
+
+  - object: Databases
+    skillset: Firebird, MySQL, MongoDB
+
+  - object: Operating Systems
+    skillset: Windows, Linux

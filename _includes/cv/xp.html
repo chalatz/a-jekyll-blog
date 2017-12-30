@@ -1,0 +1,35 @@
+
+<h2 class="block__title">
+    {{ site.data.cv.xp_title }}
+</h2>
+
+<table class="pure-table about-me__cv-table">
+
+    <tbody>
+
+        {% for item in site.data.cv.xp %}
+            
+            <tr>
+                <td>
+                    {{ item.period }}
+                </td>
+                <td>
+                    {% for entry in item.details %}
+                        <p>
+                            <strong>{{ entry.company }}</strong>
+                        </p>
+                        <p>
+                            <strong>{{ entry.title }}</strong>
+                        </p>
+                        <p>
+                            {{ entry.desc }}
+                        </p>
+                    {% endfor %}
+                </td>
+            </tr>
+
+        {% endfor %}
+
+    </tbody>
+
+</table>

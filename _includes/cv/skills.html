@@ -1,0 +1,24 @@
+<h2 class="block__title">
+    {{ site.data.cv.skills_title }}
+</h2>
+
+<table class="pure-table about-me__cv-table">
+
+    <tbody>
+
+        {% for item in site.data.cv.skills %}
+            
+            <tr>
+                <td>
+                    {{ item.object }}
+                </td>
+                <td>
+                    {{ item.skillset }}
+                </td>
+            </tr>
+
+        {% endfor %}
+
+    </tbody>
+
+</table>
