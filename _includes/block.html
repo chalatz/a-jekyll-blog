@@ -1,0 +1,7 @@
+<!-- This file is used to allow the use of markdown inside block.html
+It would nice if it's not edited. -->
+
+<section class="block">
+{% capture block_include %}{% include block.md %}{% endcapture %}
+{{ block_include | markdownify }}
+</section>
