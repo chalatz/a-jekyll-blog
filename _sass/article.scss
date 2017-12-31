@@ -46,12 +46,12 @@
 .article--summary {
 
     padding: 1em 0;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
     border-bottom: 1px solid lighten($gray, 50%);
 
     @include breakpoint(medium) {
         padding: 0;
-        margin-bottom: 1em;
+        margin-bottom: .8em;
     }
 
     &__title {
