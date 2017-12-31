@@ -7,8 +7,14 @@ tags:
     - tag4
 ---
 
-Lorem, ipsum dolor sit amet consectetur [adipisicing](#) elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis distinctio architecto natus eaque, commodi nemo.
+Hello, world on Java!
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis distinctio architecto natus eaque, commodi nemo.
+Snippet with highlighting
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas quasi accusantium non veniam rerum quas recusandae laboriosam repellat id saepe vitae, voluptatem corporis distinctio architecto natus eaque, commodi nemo.
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
